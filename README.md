@@ -9,7 +9,7 @@ Este é um projeto de exemplo de uma API criada com .NET Core 9 usando Domain-Dr
 - Repository Pattern
 - MySQL
 - EF Core (Entity Framework Core)
-- 
+  
 ## Clonar o Repositório:
 bash
 git clone (https://github.com/Everton-Felix-Sales/Box-Flux-API.git)
@@ -27,7 +27,7 @@ EX:
 - Update-Database ( Cria ou Atualiza o Banco de dados e tabelas dentro do arquivo Context )
  
 ## Selecione a Camada como projeto de incialização:
-Boxflux.Web
+- Boxflux.Web
 
 ## Restaurar Dependências:
 - dotnet restore
