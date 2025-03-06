@@ -20,11 +20,11 @@ EX:
 "Default": "Server=localhost;Database=BoxFluxAPI;User=root;Password=seupassword;Port=3306;"
 
 ## Crie uma Migration para criar uma DB nova:
- dentro do Visual Studio , va em Ferramentas -> Gerenciador de pacotes NUGet-> Console do gerenciador de pacotes.
+- dentro do Visual Studio , va em Ferramentas -> Gerenciador de pacotes NUGet-> Console do gerenciador de pacotes.
  
-## Execute o Comando :
- Add-Migration Initial  ( inicia a Migration com arquivo Context existente )
- Update-Database ( Cria ou Atualiza o Banco de dados e tabelas dentro do arquivo Context )
+- Execute o Comando :
+ -Add-Migration Initial  ( inicia a Migration com arquivo Context existente )
+- Update-Database ( Cria ou Atualiza o Banco de dados e tabelas dentro do arquivo Context )
  
 ## Selecione a Camada como projeto de incialização:
 Boxflux.Web
@@ -92,14 +92,14 @@ Código: 200 OK
 
  
 ## Contribuição
-Se desejar contribuir com este projeto, por favor, siga os passos abaixo:
+-Se desejar contribuir com este projeto, por favor, siga os passos abaixo:
 
 ## Fork o Repositório
 
-Crie um Branch para sua Funcionalidade (git checkout -b feature/nova-funcionalidade)
+-Crie um Branch para sua Funcionalidade (git checkout -b feature/nova-funcionalidade)
 
-Faça Commit das Suas Modificações (git commit -m 'Adiciona nova funcionalidade')
+-Faça Commit das Suas Modificações (git commit -m 'Adiciona nova funcionalidade')
 
-Envie para o Branch (git push origin feature/nova-funcionalidade)
+-Envie para o Branch (git push origin feature/nova-funcionalidade)
 
-Abra um Pull Request
+-Abra um Pull Request
