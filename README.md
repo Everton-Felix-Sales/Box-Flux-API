@@ -89,10 +89,7 @@ Código: 200 OK
    {
    "Balance"
    }
-Balance
 
-Corpo:
- Balance 
  
 ## Contribuição
 Se desejar contribuir com este projeto, por favor, siga os passos abaixo:
