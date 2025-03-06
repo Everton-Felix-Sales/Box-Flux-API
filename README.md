@@ -10,7 +10,7 @@ Este é um projeto de exemplo de uma API criada com .NET Core 9 usando Domain-Dr
 - MySQL
 - EF Core (Entity Framework Core)
 ### FluxoGrama do Projeto
-![Fluxograma do Projeto](src/Boxflux.Web/Images/image.png)
+![Fluxograma do Projeto](src/Boxflux.Web/Images/Fluxograma.png)
   
 ## Clonar o Repositório:
 bash
