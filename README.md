@@ -71,16 +71,6 @@ Método HTTP: GET
     "value": "decimal",
   "dateLauching": "datetime"
   }
-## Corpo:
-
-json
-[
-  {
-    "type": "string",
-    "value": "decimal",
-    "dateLauching": "datetime"
-  }
-]
 
 ## Consolidado
 ## GET /api/GetConsolidatedDaily
@@ -95,6 +85,10 @@ Resposta de Sucesso:
 Código: 200 OK
 
 - **Corpo da Requisição:**
+-  ```json
+   {
+   "Balance"
+   }
 Balance
 
 Corpo:
