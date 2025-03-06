@@ -10,24 +10,7 @@ Este é um projeto de exemplo de uma API criada com .NET Core 9 usando Domain-Dr
 - MySQL
 - EF Core (Entity Framework Core)
 ### FluxoGrama do Projeto
-  graph TD;
-    A[Fluxo Caixa] --> B[POST /api/lauching]
-    B --> |Request| C{Validar Dados}
-    C --> |Validação Sucesso| D[Cria um novo lançamento]
-    D --> E[Resposta: 200 OK]
-
-    A --> F[GET /api/lauching]
-    F --> |Request| G[Obtém todos os lançamentos]
-    G --> H[Resposta: 200 OK]
-
-    T[Consolidado Diário] --> I[GET /api/GetConsolidatedDaily]
-    I --> |Request| J[Obtém o consolidado dos lançamentos da data fornecida]
-    J --> |Validação Sucesso| K[Cria o Consolidado]
-    K --> L[Resposta: 200 OK]
-
-    style B fill:#f9f,stroke:#333,stroke-width:2px;
-    style F fill:#bbf,stroke:#333,stroke-width:2px;
-    style I fill:#bbf,stroke:#333,stroke-width:2px;
+![Fluxograma do Projeto](src/Boxflux.Web/Images/image.png)
   
 ## Clonar o Repositório:
 bash
