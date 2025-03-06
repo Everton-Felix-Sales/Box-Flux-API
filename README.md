@@ -14,7 +14,8 @@ Este é um projeto de exemplo de uma API criada com .NET Core 9 usando Domain-Dr
 bash
 git clone (https://github.com/Everton-Felix-Sales/Box-Flux-API.git)
 
-## Configurar a String de Conexão com o MySQL: Atualize o arquivo appsettings.json com a string de conexão do MySQL:
+## Configurar a String de Conexão com o MySQL: 
+Atualize o arquivo appsettings.json com a string de conexão do MySQL:
 EX:
 "Default": "Server=localhost;Database=BoxFluxAPI;User=root;Password=seupassword;Port=3306;"
 
