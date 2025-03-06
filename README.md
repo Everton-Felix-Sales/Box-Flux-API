@@ -64,6 +64,13 @@ Método HTTP: GET
 
  Código: 200 OK
 
+- **Corpo da Requisição:**
+  ```json
+  {
+    "type": "string", // "credito" ou "debito"
+    "value": "decimal",
+  "dateLauching": "datetime"
+  }
 ## Corpo:
 
 json
@@ -86,6 +93,9 @@ Método HTTP: GET
 Resposta de Sucesso:
 
 Código: 200 OK
+
+- **Corpo da Requisição:**
+Balance
 
 Corpo:
  Balance 
