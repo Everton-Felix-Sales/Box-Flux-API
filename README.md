@@ -9,16 +9,28 @@ Este é um projeto de exemplo de uma API criada com .NET Core 9 usando Domain-Dr
 - Repository Pattern
 - MySQL
 - EF Core (Entity Framework Core)
+- 
+## Clonar o Repositório:
+bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-## Configurar a String de Conexão com o MySQL: Atualize o arquivo appsettings.json com a string de conexão do MySQL.
+## Configurar a String de Conexão com o MySQL: Atualize o arquivo appsettings.json com a string de conexão do MySQL:
 EX:
 "Default": "Server=localhost;Database=BoxFluxAPI;User=root;Password=seupassword;Port=3306;"
-## Crie uma Migration para criar uma DB nova .
+
+## Crie uma Migration para criar uma DB nova:
  dentro do Visual Studio , va em Ferramentas -> Gerenciador de pacotes NUGet-> Console do gerenciador de pacotes.
+ 
 ## Execute o Comando :
  Add-Migration Initial  ( inicia a Migration com arquivo Context existente )
  Update-Database ( Cria ou Atualiza o Banco de dados e tabelas dentro do arquivo Context )
- ## Selecione a Camada BoxFlux.Web como projeto de incialização
+ 
+## Selecione a Camada como projeto de incialização:
+Boxflux.Web
+
+## Restaurar Dependências:
+bash
+dotnet restore
  
 ## Endpoints
 
@@ -63,10 +75,10 @@ json
 ]
 
 ## Consolidado
-## GET /api/consolidado
+## GET /api/GetConsolidatedDaily
 ## Obtém o consolidado dos lançamentos.
 
-URL: /api/consolidado
+URL: /api/GetConsolidatedDaily
 
 Método HTTP: GET
 
@@ -75,10 +87,17 @@ Resposta de Sucesso:
 Código: 200 OK
 
 Corpo:
+ Balance 
+ 
+## Contribuição
+Se desejar contribuir com este projeto, por favor, siga os passos abaixo:
 
-json
-{
-  "totalCredito": "decimal",
-  "totalDebito": "decimal",
-  "saldo": "decimal"
-}
+## Fork o Repositório
+
+Crie um Branch para sua Funcionalidade (git checkout -b feature/nova-funcionalidade)
+
+Faça Commit das Suas Modificações (git commit -m 'Adiciona nova funcionalidade')
+
+Envie para o Branch (git push origin feature/nova-funcionalidade)
+
+Abra um Pull Request
